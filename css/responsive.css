@@ -1,0 +1,389 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+
+[Table of Contents]
+
+1. 1600px
+2. 1440px
+3. 1280px
+4. 1199px
+5. 1024px
+6. 991px
+7. 959px
+8. 880px
+9. 768px
+10. 767px
+11. 539px
+12. 479px
+13. 400px
+
+******************************/
+
+/************
+1. 1600px
+************/
+
+@media only screen and (max-width: 1600px)
+{
+	
+}
+
+/************
+2. 1440px
+************/
+
+@media only screen and (max-width: 1440px)
+{
+	
+}
+
+/************
+3. 1380px
+************/
+
+@media only screen and (max-width: 1380px)
+{
+	
+}
+
+/************
+3. 1280px
+************/
+
+@media only screen and (max-width: 1280px)
+{
+	
+}
+
+/************
+4. 1199px
+************/
+
+@media only screen and (max-width: 1199px)
+{
+	
+	
+	.main_nav ul li:not(:last-of-type)
+	{
+		margin-right: 30px;
+	}
+	
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .single-hero-slide {
+      height: 700px; }
+	 }
+/************
+4. 1100px
+************/
+
+@media only screen and (max-width: 1100px)
+{
+	
+}
+
+/************
+5. 1024px
+************/
+
+@media only screen and (max-width: 1024px)
+{
+	
+}
+
+/************
+6. 991px
+************/
+
+@media only screen and (max-width: 991px)
+{
+	
+	.main_nav
+	{
+		display: none;
+	}
+	.hamburger
+	{
+		display: block;
+	}
+	.event__slider.owl-carousel .owl-nav {
+		display: none;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	.event .section-title:after {
+		width: 560px;
+	}
+	.single-hero-slide {
+		height: 650px; 
+	} 
+
+	.single-hero-slide .hero-slides-content h2 {
+		letter-spacing: 15px;
+		font-size: 42px; }
+
+		.about.about--page .about__text {
+			padding-top: 30px;
+		}
+
+		.team__item.team__item--second {
+			margin-top: 0;
+		  }
+		
+		  .team__item.team__item--third {
+			margin-top: 0;
+		  }
+		
+		  .team__item.team__item--four {
+			margin-top: 0;
+		  }
+		  .footer {
+			height: auto;
+		}
+		.footer__social::before {
+			display: none;
+		}
+		.footer__social::after {
+			display: none;
+		}
+		.footer {
+			margin-top: 100px;
+			background-position: top 0 left 19%;
+		}
+		.tours__item__pic {
+			margin-bottom: 50px;
+		}
+		.tours__item__text {
+			padding-right: 0;
+		}
+		.countdown {
+			padding-bottom: 776px;
+		}
+		.contact__address {
+			margin-bottom: 40px;
+		}
+}
+
+
+/************
+7. 959px
+************/
+
+@media only screen and (max-width: 959px)
+{
+	
+}
+
+/************
+8. 880px
+************/
+
+@media only screen and (max-width: 880px)
+{
+	
+}
+
+/************
+9. 768px
+************/
+
+@media only screen and (max-width: 768px)
+{
+	
+}
+
+/************
+10. 767px
+************/
+
+@media only screen and (max-width: 767px)
+{
+	.header_content
+	{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	
+
+	.single-hero-slide .hero-slides-content h6 {
+		letter-spacing: 5px; 
+	}
+	.single-hero-slide {
+		height: 500px; 
+	}
+	.single-hero-slide .hero-slides-content h2 {
+		letter-spacing: 5px;
+		font-size: 30px; }
+		.about.about--page .about__text {
+			padding-top: 30px;
+		}
+	.event .section-title:after {
+		display: none;
+	}
+	.team__item.team__item--second {
+		margin-top: 0;
+	  }
+	
+	  .team__item.team__item--third {
+		margin-top: 0;
+	  }
+	
+	  .team__item.team__item--four {
+		margin-top: 0;
+	  }
+	  
+  .team__item {
+    margin-bottom: 20px;
+  }
+
+  .team .p-0 {
+    padding: 0 15px !important;
+  }	
+
+  .footer {
+	height: auto;
+}
+.footer__social::before {
+	display: none;
+}
+.footer__social::after {
+	display: none;
+}
+.footer__social {
+	text-align: left;
+}
+.footer {
+	margin-top: 100px;
+	background-position: top 0 left 19%;
+}
+.tours__item__pic {
+	margin-bottom: 50px;
+}
+.tours__item__text {
+	padding-right: 0;
+}
+.countdown__item {
+	margin-right: 0;
+	margin-bottom: 30px;
+	width: 50%;
+	float: left;
+}
+.countdown {
+	padding-bottom: 940px;
+}
+.contact__address {
+	margin-bottom: 40px;
+}
+}
+
+/************
+11. 575px
+************/
+
+@media only screen and (max-width: 575px)
+{
+	h2
+	{
+		font-size: 24px;
+	}
+	p
+	{
+		font-size: 14px;
+	}
+	.header_content
+	{
+		padding-left: 15px;
+		padding-right: 15px;
+		height: 90px;
+	}
+	.header.scrolled .header_content
+	{
+		height: 70px;
+	}
+	.logo
+	{
+		width: 107px;
+		height: 36px;
+	}
+	.logo a
+	{
+		font-size: 18px;
+		line-height: 32px;
+	}
+	
+}
+
+/************
+11. 539px
+************/
+
+@media only screen and (max-width: 539px)
+{
+	
+}
+
+/************
+12. 480px
+************/
+
+@media only screen and (max-width: 480px)
+{
+	
+}
+
+/************
+13. 479px
+************/
+
+@media only screen and (max-width: 479px)
+{
+	.section-title h1 {
+		top: -40px;
+		font-size: 59px;
+		line-height: 0.8;
+	}
+	.section-title h2 {
+		font-size: 30px;
+	}
+	.about__text {
+		padding-top: 90px;
+	}
+	.footer {
+		margin-top: 50px;
+		background-position: top 0 left 19%;
+	}
+	.tours__item__text .tours__text__widget ul {
+		float: none;
+		margin-bottom: 30px;
+	}
+	.tours__item__text .tours__text__widget .price {
+		float: none;
+	}
+	.tours__item__pic {
+		padding-left: 0;
+	}
+	.tours__item__text.tours__item__text--right {
+		padding-left: 0;
+	}
+	.countdown__text h1 {
+		font-size: 50px;
+	}
+	.countdown {
+		padding-bottom: 980px;
+	}
+}
+
+/************
+14. 400px
+************/
+
+@media only screen and (max-width: 400px)
+{
+	
+}
+
